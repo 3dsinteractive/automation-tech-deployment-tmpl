@@ -1,0 +1,5 @@
+version: v1
+configs:
+- { name: "CACHE_SERVER", type: "s", required: true, sample: "http://els1:9200,http://els2:9200,http://els3:9200", default: "http://els1:9200,http://els2:9200,http://els3:9200" }
+- { name: "MQ_SERVERS", type: "s", required: true, sample: "redis:6379", default: "redis:6379" }
+- { name: "ELS_SERVERS", type: "s", required: true, sample: "kfk1:9092,kfk2:9092,kfk3:9092", default: "kfk1:9092,kfk2:9092,kfk3:9092" }
