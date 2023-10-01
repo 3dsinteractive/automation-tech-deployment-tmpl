@@ -38,18 +38,6 @@ spec:
               value: <kafkaNumPartitions>
             - name: KAFKA_ZOOKEEPER_CONNECT
               value: <kafkaZookeeperConnect>
-            - name: KAFKA_NUM_NETWORK_THREADS
-              value: <kafkaNumNetworkThreads>
-            - name: KAFKA_NUM_IO_THREADS
-              value: <kafkaNumIOThreads>
-            - name: KAFKA_SOCKET_SEND_BUFFER_BYTES
-              value: <kafkaSocketSendBuffeBytes>
-            - name: KAFKA_SOCKET_RECEIVE_BUFFER_BYTES
-              value: <kafkaSocketReceiveBufferBytes>
-            - name: KAFKA_SOCKET_REQUEST_MAX_BYTES
-              value: <kafkaSocketRequestMaxBytes>
-            - name: KAFKA_MAX_MESSAGE_BYTES
-              value: <kafkaMaxMessageBytes>
             - name: KAFKA_LISTENER_SECURITY_PROTOCOL_MAP
               value: INSIDE:PLAINTEXT
             - name: KAFKA_INTER_BROKER_LISTENER_NAME

@@ -24,30 +24,12 @@ spec:
           env:
             - name: ELASTICSEARCH_CLUSTER_NAME
               value: <namespace>
-            - name: ELASTICSEARCH_MINIMUM_MASTER_NODES
-              value: <minimumMasterNode>
             - name: ELASTICSEARCH_CLUSTER_HOSTS
               value: <clusters>
             - name: ELASTICSEARCH_NODE_NAME
               value: <name>
             - name: ELASTICSEARCH_HEAP_SIZE
               value: <heapSize>
-            - name: ELASTICSEARCH_CUSTOM_MAX_CLAUSE_COUNT
-              value: <maxClauseCount>
-            - name: ELASTICSEARCH_CUSTOM_QUERY_CACHE_SIZE
-              value: <queryCacheSize>
-            - name: ELASTICSEARCH_CUSTOM_MEMORY_LOCK
-              value: "false"
-            - name: ELASTICSEARCH_CUSTOM_BULK_QUEUE_SIZE
-              value: <bulkQueueSize>
-            - name: ELASTICSEARCH_CUSTOM_INDEX_QUEUE_SIZE
-              value: <indexQueueSize>
-            - name: ELASTICSEARCH_SNAPSHOT_S3_KEY
-              value: <snapshotS3Key>
-            - name: ELASTICSEARCH_SNAPSHOT_S3_SECRET
-              value: <snapshotS3Secret>
-            - name: ELASTICSEARCH_PLUGINS
-              value: "analysis-icu"
           resources:
             requests:
               memory: <minMem>

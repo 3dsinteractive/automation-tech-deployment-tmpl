@@ -24,7 +24,7 @@ spec:
         - name: <name>
           image: 3dsinteractive/pam4-migrate:<tag>.<timestamp>
           imagePullPolicy: Always
-          env: [ {name: SERVICE_ID, value: prod}, {name: DEBUG, value: "true"} <envs>]
+          env: [ {name: SERVICE_ID, value: migrate}, {name: DEBUG, value: "true"} <envs>]
           readinessProbe:
             httpGet:
               path: /readinez
