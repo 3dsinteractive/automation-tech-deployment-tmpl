@@ -1,1 +1,1 @@
-cfg-shared: ["cfg-shared", "node-daemon", "metrics-agents", "register-api", "mail-consumer", "batch-scheduler", "batch-ptask-api", "batch-ptask-worker", "external-api", "node-daemon", "metrics-agents", "migrate"]
+cfg-shared: ["cfg-shared", "automation-technology"]
