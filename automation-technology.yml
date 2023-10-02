@@ -6,6 +6,9 @@ metadata:
   labels:
     name: <name>
 spec:
+  selector:
+    matchLabels:
+      name: <name>
   replicas: <replicas>
   strategy:
     type: RollingUpdate
