@@ -48,16 +48,6 @@ spec:
           limits:
             memory: <maxMem>
             cpu: <maxCpu>
-        volumeMounts:
-        - name: vol-profiler
-          mountPath: /profiler
-      volumes:
-      - name: vol-profiler
-        configMap:
-          name: profiler
-          items:
-          - key: profiler
-            path: profiler.json
 ---
 apiVersion: v1
 kind: Service
