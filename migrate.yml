@@ -27,7 +27,7 @@ spec:
           env: [ {name: SERVICE_ID, value: migrate}, {name: DEBUG, value: "true"} <envs>]
           readinessProbe:
             httpGet:
-              path: /readinez
+              path: /healthz
               port: 8080
             initialDelaySeconds: 10
             periodSeconds: 10
