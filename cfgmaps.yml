@@ -1,1 +1,1 @@
-cfg-shared: ["cfg-shared", "automation-technology", "node-daemon"]
+cfg-shared: ["cfg-shared", "automation-technology", "node-daemon", "metrics-agents"]
